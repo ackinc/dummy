@@ -1,0 +1,15 @@
+{
+  "name": "dummy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ackinc/dummy.git",
+  "author": "Anirudh Nimmagadda <anirudh.nimmagadda@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+	  "dotenv": "^16.3.1"
+  },
+  "scripts": {
+	  "start": "node server.js",
+	  "stop": "kill $(cat pid)"
+  }
+}
