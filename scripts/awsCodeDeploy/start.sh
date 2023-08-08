@@ -1,2 +1,2 @@
 cd /home/ubuntu/dummy
-yarn start &
+node server.js &> /dev/null < /dev/null &
