@@ -6,8 +6,16 @@ version: 0.0
 os: linux
 
 files:
-  - source: .
+  - source: /
     destination: /home/ubuntu/dummy
+
+permissions:
+  - object: /home/ubuntu/dummy
+    owner: ubuntu
+    group: ubuntu
+    mode: 755
+    type:
+      - directory
 
 hooks:
   ApplicationStop:
