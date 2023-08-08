@@ -7,10 +7,10 @@ os: linux
 
 files:
   - source: /
-    destination: /home/ubuntu/dummy
+    destination: /home/ubuntu/duma
 
 permissions:
-  - object: /home/ubuntu/dummy
+  - object: /home/ubuntu/duma
     owner: ubuntu
     group: ubuntu
     mode: 755

@@ -1,2 +1,2 @@
-cd /home/ubuntu/dummy
+cd /home/ubuntu/duma
 yarn stop
