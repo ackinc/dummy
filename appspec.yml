@@ -7,10 +7,10 @@ os: linux
 
 files:
   - source: /
-    destination: /home/ubuntu/dono
+    destination: /home/ubuntu/dima
 
 permissions:
-  - object: /home/ubuntu/dono
+  - object: /home/ubuntu/dima
     owner: ubuntu
     group: ubuntu
     mode: 755

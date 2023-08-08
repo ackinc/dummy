@@ -1,3 +1,3 @@
-mkdir -p /home/ubuntu/dono && cd /home/ubuntu/dono
+mkdir -p /home/ubuntu/dima && cd /home/ubuntu/dima
 
 yarn
