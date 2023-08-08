@@ -19,14 +19,14 @@ permissions:
 
 hooks:
   ApplicationStop:
-    - location: scripts/stop.sh
+    - location: scripts/awsCodeDeploy/stop.sh
       timeout:
       runas: ubuntu
-  AfterInstall:
-    - location: scripts/install_deps.sh
+  BeforeInstall:
+    - location: scripts/awsCodeDeploy/install_deps.sh
       timeout:
       runas: ubuntu
   ApplicationStart:
-    - location: scripts/start.sh
+    - location: scripts/awsCodeDeploy/start.sh
       timeout:
       runas: ubuntu

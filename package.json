@@ -6,10 +6,10 @@
   "author": "Anirudh Nimmagadda <anirudh.nimmagadda@gmail.com>",
   "license": "MIT",
   "dependencies": {
-	  "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1"
   },
   "scripts": {
-	  "start": "node server.js",
-	  "stop": "kill $(cat pid)"
+    "start": "node server.js",
+    "stop": "test -f pid && kill $(cat pid)"
   }
 }
