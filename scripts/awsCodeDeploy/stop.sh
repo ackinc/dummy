@@ -1,2 +1,6 @@
 cd /home/ubuntu/duma
-yarn stop
+
+if [[ -f pid ]]
+then
+  kill `cat pid`
+fi
