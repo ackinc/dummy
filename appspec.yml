@@ -7,10 +7,10 @@ os: linux
 
 files:
   - source: /
-    destination: /home/ubuntu/duma
+    destination: /home/ubuntu/dono
 
 permissions:
-  - object: /home/ubuntu/duma
+  - object: /home/ubuntu/dono
     owner: ubuntu
     group: ubuntu
     mode: 755
@@ -20,7 +20,7 @@ hooks:
     - location: scripts/awsCodeDeploy/stop.sh
       timeout:
       runas: ubuntu
-  BeforeInstall:
+  AfterInstall:
     - location: scripts/awsCodeDeploy/install_deps.sh
       timeout:
       runas: ubuntu

@@ -1,3 +1,3 @@
-cd /home/ubuntu/duma
+cd /home/ubuntu/dono
 
 node server.js &> /dev/null < /dev/null &

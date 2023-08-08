@@ -1,4 +1,4 @@
-cd /home/ubuntu/duma
+cd /home/ubuntu/dono
 
 if [[ -f pid ]]
 then
